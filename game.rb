@@ -18,6 +18,8 @@ class Game
 
     def do_guess()
         input = gets.chomp.to_i;
+
+        puts input
 end;
 
 game = Game.new;
