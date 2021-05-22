@@ -11,10 +11,13 @@ class Game
         puts "Starting game...";
         
         while true do
-            puts "bingus"
+            guess 
         end;
 
     end;
+
+    def do_guess()
+        input = gets.chomp;
 end;
 
 game = Game.new;
