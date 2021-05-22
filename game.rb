@@ -18,7 +18,7 @@ class Game
 
         input = gets.chomp.to_i;
 
-        if input == random
+        if input == @random
             puts "You got the answer correct!"
         end
     end
