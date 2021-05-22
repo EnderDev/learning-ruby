@@ -17,7 +17,7 @@ class Game
     end;
 
     def do_guess()
-        input = gets.chomp;
+        input = gets.chomp.to_i;
 end;
 
 game = Game.new;
