@@ -10,7 +10,9 @@ class Game
     def start()
         puts "Starting game...";
         
-        
+        while true do
+            puts "bingus"
+
     end;
 end;
 
