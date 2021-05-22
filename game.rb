@@ -27,6 +27,8 @@ class Game
             do_guess();
         elsif input > 100
             puts "Incorrect, try again. Hint: your guess needs to be lower than 100!"
+
+            do_guess();
         elsif input < @random
             puts "Incorrect, try again. Hint: you need to go higher!"
         elsif input > @random
