@@ -1,6 +1,6 @@
 class Game
     def initialize()
-        puts "Welcome to the Guessing Game!"
+        puts "Welcome to the Guessing Game! 👋"
     end
 end
 
