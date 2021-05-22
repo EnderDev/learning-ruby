@@ -20,6 +20,8 @@ class Game
 
         if input == @random
             puts "You got the answer correct!"
+        else input < @random
+            puts "Incorrect, try again. Hint: you need to go higher!"
         end
     end
 end;
