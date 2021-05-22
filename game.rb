@@ -9,6 +9,7 @@ class Game
 
     def start()
         puts "Starting game...";
+        puts self.random
     end;
 end;
 
