@@ -10,9 +10,7 @@ class Game
     def start()
         puts "Starting game...";
         
-        while true do
-            guess 
-        end;
+        do_guess()
 
     end;
 
