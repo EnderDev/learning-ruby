@@ -2,7 +2,7 @@ class Game
     @random = nil;
     
     def initialize();
-        @random = rand(100)
+        # @random = rand(100)
 
         puts "Welcome to the Guessing Game! 👋";
     end;
