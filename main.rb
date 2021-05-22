@@ -8,3 +8,5 @@ end
 my_greeter = Greeter.new
 
 my_greeter.hello("bingus")
+
+puts rand(100)
