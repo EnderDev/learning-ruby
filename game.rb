@@ -14,6 +14,8 @@ class Game
     end;
 
     def do_guess()
+        puts "Make your guess! It must be between 0 and 100."
+
         input = gets.chomp.to_i;
 
         puts input
