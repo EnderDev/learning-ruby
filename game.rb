@@ -1,5 +1,5 @@
 class Game
-    @random
+    @random = nil
 
     def initialize();
         self.random = rand(100)
