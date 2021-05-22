@@ -12,6 +12,7 @@ class Game
         
         while true do
             puts "bingus"
+        end;
 
     end;
 end;
