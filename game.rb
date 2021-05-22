@@ -9,7 +9,8 @@ class Game
 
     def start()
         puts "Starting game...";
-        
+        puts @random
+
         do_guess();
     end;
 
