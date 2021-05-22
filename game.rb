@@ -30,6 +30,8 @@ class Game
         elsif input > @random
             puts "Incorrect, try again. Hint: you need to go lower!"
         end
+
+        do_guess();
     end
 end;
 
