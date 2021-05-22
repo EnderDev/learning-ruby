@@ -1,4 +1,6 @@
 class Game
+    @random
+
     def initialize();
         puts "Welcome to the Guessing Game! 👋";
     end;
