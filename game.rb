@@ -20,6 +20,7 @@ class Game
 
         if input == random
             puts "You got the answer correct!"
+        end
     end
 end;
 
