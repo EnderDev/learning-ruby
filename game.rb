@@ -3,3 +3,5 @@ class Game
         puts "bingus"
     end
 end
+
+game = Game.new
