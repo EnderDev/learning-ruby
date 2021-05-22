@@ -4,4 +4,4 @@ class Game
     end
 end
 
-game = Game.new
+Game = Game.new
