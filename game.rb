@@ -10,4 +10,4 @@ end;
 
 game = Game.new;
 
-game.start();
+# game.start();
