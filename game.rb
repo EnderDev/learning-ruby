@@ -25,6 +25,7 @@ class Game
             puts "Incorrect, try again. Hint: you need to go higher!"
         else input > @random
             puts "Incorrect, try again. Hint: you need to go lower!"
+        end
     end
 end;
 
