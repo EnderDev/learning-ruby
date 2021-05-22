@@ -1,2 +1,2 @@
 puts "Generating random number..."
-puts rand(100) # random number from 0 to 100
+random = puts rand(100) # random number from 0 to 100
