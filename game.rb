@@ -1,4 +1,6 @@
 class Game
+    @random = nil;
+    
     def initialize();
         self.random = rand(100)
 
