@@ -18,6 +18,7 @@ class Game
         input = gets.chomp.to_i;
 
         puts input
+    end
 end;
 
 game = Game.new;
