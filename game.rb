@@ -20,6 +20,7 @@ class Game
 
         if input == @random
             puts "You got the answer correct!"
+            exit(true) # exit with success code
         elsif input < 0
             puts "Incorrect, try again. Hint: your guess needs to be higher than 0!"
         elsif input > 100
