@@ -9,6 +9,7 @@ class Game
 
     def start()
         puts "Starting game...";
+        puts "Make your guess! It must be between 0 and 100."
 
         do_guess();
     end;
