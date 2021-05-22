@@ -2,6 +2,8 @@ class Game
     @random
 
     def initialize();
+        self.random = rand(100)
+
         puts "Welcome to the Guessing Game! 👋";
     end;
 
